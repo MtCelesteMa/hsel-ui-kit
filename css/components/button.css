@@ -1,0 +1,10 @@
+.btn-blumag {
+  background-color: #3F007F;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  padding: 10px;
+}
+
+.btn-blumag:hover {
+  background-color: #7F00FF;
+}

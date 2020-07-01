@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.container-blumag {
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #0000FF, #FF00FF);
+  border: 5px solid #3F007F;
+  margin: 10px;
+  text-align: center;
+}
