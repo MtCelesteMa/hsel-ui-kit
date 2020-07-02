@@ -4,10 +4,11 @@
 /* Import components */
 @import url("components/container.css");
 @import url("components/button.css");
+@import url("components/cards.css");
 
 /* Other */
 body {
-  font-family: 'Courier Prime', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 

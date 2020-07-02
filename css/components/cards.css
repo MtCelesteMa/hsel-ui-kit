@@ -1,0 +1,27 @@
+.card-field {
+  display: flex;
+  border: 5px solid #FFFFFF;
+  margin: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.card-base {
+  background-color: #FFFFFF;
+  height: 400px;
+  width: 300px;
+  max-height: 400px;
+  max-width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.card-image {
+  height: 250px;
+  width: 250px;
+}
+
+.card-infobox {
+  ;
+}

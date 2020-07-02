@@ -8,3 +8,14 @@
 .btn-blumag:hover {
   background-color: #7F00FF;
 }
+
+.btn-red {
+  background-color:#FF0000;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-red:hover {
+  background-color:#FF7F7F;
+}
