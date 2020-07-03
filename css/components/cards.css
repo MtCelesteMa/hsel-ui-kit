@@ -1,9 +1,25 @@
 .card-field {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: ;
   border: 5px solid #FFFFFF;
   margin: 10px;
   padding: 10px;
-  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .card-field {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .card-field {
+    grid-template-columns: auto;
+  }
 }
 
 .card-base {
@@ -15,13 +31,10 @@
   margin: 10px;
   padding: 10px;
   border-radius: 25px;
+  color: #000000;
 }
 
 .card-image {
   height: 250px;
   width: 250px;
-}
-
-.card-infobox {
-  ;
 }

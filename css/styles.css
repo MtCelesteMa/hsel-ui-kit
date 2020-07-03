@@ -3,6 +3,8 @@
 
 /* Import components */
 @import url("components/container.css");
+@import url("components/avatars.css");
+@import url("components/banner.css");
 @import url("components/button.css");
 @import url("components/cards.css");
 
@@ -10,6 +12,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  margin: 0px;
 }
 
 h1, h2 {

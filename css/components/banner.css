@@ -1,0 +1,9 @@
+.banner {
+  text-align: center;
+  background-image: linear-gradient(to right, #0000FF, #FF00FF);
+  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #FFFFFF;
+}
